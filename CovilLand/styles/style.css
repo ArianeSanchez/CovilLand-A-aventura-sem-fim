@@ -22,7 +22,7 @@
 }
 
 .pulo {
-  animation: paulo-animation 1500ms infinite ease-out;
+  animation: paulo-animation 800ms infinite ease-out;
 }
 
 .nuvem {
@@ -35,14 +35,14 @@
   position: absolute;
   bottom: 0;
   width: 60px;
-  animation: jean-animation 3s infinite linear;
+  animation: jean-animation 2.5s infinite linear;
 }
 
 .pikachu {
   position: absolute;
   bottom: 0;
   width: 85px;
-  animation: pikachu-animation 6s infinite linear;
+  animation: pikachu-animation 3.75s infinite linear;
 }
 
 @keyframes paulo-animation {

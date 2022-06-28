@@ -7,7 +7,7 @@ const pulo = () => {
 
   setTimeout(() => {
     paulo.classList.remove('pulo');
-  }, 1500);
+  }, 800);
 };
 
 const loop = setInterval(() => {

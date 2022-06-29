@@ -48,10 +48,15 @@ const loop1 = setInterval(() => {
     .bottom.replace('px', '');
 
   if (pikachuPosition <= 120 && pikachuPosition > 0 && pauloPosition < 90) {
-    pikachu.getElementsByClassName.animation = 'none';
+    nuvem.style.animationPlayState = 'paused';
+
+    pikachu.style.animationPlayState = 'paused';
+
+    jean.style.animationPlayState = 'paused';
+    jean.getElementsByClassName.left = `${jeanPosition}px`;
     pikachu.getElementsByClassName.left = `${pikachuPosition}px`;
 
-    paulo.getElementsByClassName.animation = 'none';
+    paulo.style.animationPlayState = 'paused';
     paulo.getElementsByClassName.bottom = `${pauloPosition}px`;
 
     paulo.src = './imagens/pikachuladrao.png';

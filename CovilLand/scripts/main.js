@@ -28,6 +28,9 @@ const loop = setInterval(() => {
     paulo.style.width = '175px';
     paulo.style.marginLeft = '150px';
 
+    jean.style.display = 'none';
+    pikachu.style.display = 'none';
+
     clearInterval(loop);
   }
 }, 10);
@@ -50,6 +53,8 @@ const loop1 = setInterval(() => {
     paulo.style.width = '175px';
     paulo.style.marginLeft = '150px';
 
+    jean.style.display = 'none';
+    pikachu.style.display = 'none';
     clearInterval(loop1);
   }
 }, 10);

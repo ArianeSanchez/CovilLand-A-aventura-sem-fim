@@ -1,6 +1,7 @@
 const paulo = document.querySelector('.paulo');
 const jean = document.querySelector('.jean');
 const pikachu = document.querySelector('.pikachu');
+const nuvem = document.querySelector('.nuvem');
 
 const pulo = () => {
   paulo.classList.add('pulo');
@@ -18,10 +19,14 @@ const loop = setInterval(() => {
     .bottom.replace('px', '');
 
   if (jeanPosition <= 120 && jeanPosition > 0 && pauloPosition < 80) {
-    jean.getElementsByClassName.animation = 'none';
+    nuvem.style.animationPlayState = 'paused';
+
+    pikachu.style.animationPlayState = 'paused';
+
+    jean.style.animationPlayState = 'paused';
     jean.getElementsByClassName.left = `${jeanPosition}px`;
 
-    paulo.getElementsByClassName.animation = 'none';
+    paulo.style.animationPlayState = 'paused';
     paulo.getElementsByClassName.bottom = `${pauloPosition}px`;
 
     paulo.src = './imagens/blockdorei.png';
